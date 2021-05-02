@@ -1,1 +1,2 @@
-console.log('Hello');
+import './http-request';
+import './async-handling';
