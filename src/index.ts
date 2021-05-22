@@ -1,1 +1,3 @@
-console.log('Hello');
+import './number-equals';
+import './point-equals';
+import './user-equals';
