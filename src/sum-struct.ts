@@ -2,7 +2,7 @@ import { pipe } from 'fp-ts/function';
 import { concatAll, Monoid, struct } from 'fp-ts/Monoid';
 import * as N from 'fp-ts/number';
 
-console.log('---- sum ----');
+console.log('---- sum struct ----');
 
 type Point = {
   readonly x: number;
@@ -22,4 +22,4 @@ pipe(
   console.log
 );
 
-console.log('---- sum ----');
+console.log('---- sum struct ----');

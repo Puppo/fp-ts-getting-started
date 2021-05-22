@@ -2,7 +2,7 @@ import { pipe } from 'fp-ts/function';
 import { concatAll, Monoid, tuple } from 'fp-ts/Monoid';
 import * as N from 'fp-ts/number';
 
-console.log('---- sum ----');
+console.log('---- sum tuple ----');
 
 type Point = readonly [number, number];
 
@@ -16,4 +16,4 @@ pipe(
   console.log
 );
 
-console.log('---- sum ----');
+console.log('---- sum tuple ----');

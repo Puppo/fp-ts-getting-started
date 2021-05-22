@@ -5,6 +5,7 @@ import * as B from 'fp-ts/boolean';
 
 console.log('---- concatAll ----');
 
+console.log(concatAll(N.MonoidSum)([])); // => 0
 console.log(concatAll(N.MonoidSum)([1, 2, 3, 4])); // => 10
 console.log(concatAll(N.MonoidProduct)([1, 2, 3, 4])); // => 24
 console.log(concatAll(S.Monoid)(['a', 'b', 'c'])); // => 'abc'
